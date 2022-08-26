@@ -1,0 +1,101 @@
+
+body{
+   font-family: 'Montserrat', sans-serif;
+   /* min-height: 100vh; */
+   background-image:  linear-gradient(to right top, #9597EF, #f9c5e1);
+}
+h2.titulo {
+    font-family: 'MonteCarlo', cursive;
+    font-size: 300%;
+}
+p {
+    font-family: 'Montserrat';
+}
+section {
+    background-color: whitesmoke;
+    width: auto;
+    margin-bottom: 60px;
+    border-radius: 25px;
+    justify-content: center;
+    box-shadow: 14px 10px 21px -10px rgba(0,0,0,0.75);
+  
+}
+.img-div {
+    text-align: center;
+    height: 70%;
+}
+
+.texto {
+    margin-top: 15%;
+}
+.happy {
+    font-size: 150%;
+}
+.fa-react {
+    color: #61DAFB;
+}
+
+/* icons */
+.wrapper {
+	padding: 20px;
+	text-align: center;
+}
+.list-unstyled {
+	padding-left: 0;
+	list-style: none;
+}
+.list-inline li {
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-bottom: 10px;
+}
+.social-icons .fa-brands {
+	font-size: 1.8em;
+}
+/*Change icons circle size and color here*/
+.social-icons .fa-brands {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #FFF;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.social-icons.icon-circle .fa-brands{ 
+	border-radius: 50%;
+}.social-icons .fa-brands:hover, .social-icons .fa-brands:active {
+	color: #FFF;
+	-webkit-box-shadow: 1px 1px 3px #333;
+	-moz-box-shadow: 1px 1px 3px #333;
+	box-shadow: 1px 1px 3px #333; 
+}
+.social-icons.icon-zoom .fa-brands:hover, .social-icons.icon-zoom .fa-brands:active { 
+ 	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1); 
+}
+.social-icons .fa-github {
+    background-color:#070709;
+} 
+.social-icons .fa-linkedin-in{ 
+    background-color:#0085AE;
+}
+.social-icons .fa-instagram {
+    background-color: #C13584;
+}
+
+/*media queries*/
+@media only screen and (max-width: 600px) {
+    .div-img {
+        margin-top: 20px;
+        width: 200px;
+    }
+  }
